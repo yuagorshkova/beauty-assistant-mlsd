@@ -5,7 +5,6 @@
 
 **Автор:** Юлия Горшкова. **Текущая работа:** HW1 — дизайн системы и сетап репозитория.
 Реализация и результаты экспериментов появятся в следующих итерациях.
-Описание обезличено; корпоративные данные и исходный код сюда не включены.
 
 - [ML System Design документ](docs/ml_system_design_doc.md)
 - [Порядок сдачи домашних работ](CONTRIBUTING.md)
@@ -41,10 +40,3 @@ pyproject.toml / uv.lock       — инструменты и версии зав
 .pre-commit-config.yaml        — проверки перед коммитом
 .github/workflows/checks.yml   — проверки в GitHub Actions
 ```
-
-## Основа документа
-
-Структура адаптирована из [шаблона Reliable ML](https://github.com/IrinaGoloshchapova/ml_system_design_doc_ru/blob/main/ML_System_Design_Doc_Template.md).
-Учебные материалы: [MLOps](https://mlops.ml-devs.com/).
-Предлагаемые решения и неизвестные параметры отмечены в документе;
-измеренных результатов пока нет.
