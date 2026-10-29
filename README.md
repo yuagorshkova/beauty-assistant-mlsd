@@ -7,7 +7,6 @@
 Реализация и результаты экспериментов появятся в следующих итерациях.
 
 - [ML System Design документ](docs/ml_system_design_doc.md)
-- [Порядок сдачи домашних работ](CONTRIBUTING.md)
 
 ## Локальная работа
 
@@ -21,7 +20,7 @@ uv run pre-commit run --all-files
 
 Проверки: Ruff для будущего Python-кода, mdformat для Markdown,
 валидность YAML, пробелы и окончания файлов. Версии зависимостей закреплены
-в `uv.lock`; те же проверки запускаются в GitHub Actions на push и PR.
+в `uv.lock`.
 Ruff пропускает файлы, пока в проекте нет Python-кода.
 
 Отдельный запуск:
@@ -29,7 +28,7 @@ Ruff пропускает файлы, пока в проекте нет Python-�
 ```bash
 uv run ruff check .
 uv run ruff format --check .
-uv run mdformat --check README.md CONTRIBUTING.md docs
+uv run mdformat --check README.md docs
 ```
 
 ## Состав проекта
@@ -38,5 +37,4 @@ uv run mdformat --check README.md CONTRIBUTING.md docs
 docs/ml_system_design_doc.md   — цели, требования, scope, схема и оценка
 pyproject.toml / uv.lock       — инструменты и версии зависимостей
 .pre-commit-config.yaml        — проверки перед коммитом
-.github/workflows/checks.yml   — проверки в GitHub Actions
 ```
