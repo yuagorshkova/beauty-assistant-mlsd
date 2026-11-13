@@ -1,0 +1,320 @@
+{
+  "schema_version": 1,
+  "input_sha256": "a942216a7708c7933d855020fc72ce4d8cf22e61fb456ec92b5ec50ac1f5bf28",
+  "rows": 213,
+  "dialogues": 178,
+  "checks": {
+    "duplicate_ids": 0,
+    "empty_queries": 0,
+    "missing_annotations": 0,
+    "empty_criteria": 0,
+    "invalid_turn_order": 0,
+    "inconsistent_dialogue_length": 0,
+    "mixed_role_dialogues": 0,
+    "duplicate_dialogue_sequences": 0,
+    "invalid_annotation_types": 0
+  },
+  "repeated_turn_text_excess": 13,
+  "dialogue_lengths": {
+    "1": 157,
+    "2": 11,
+    "3": 6,
+    "4": 4
+  },
+  "roles": {
+    "main": {
+      "rows": 192,
+      "dialogues": 164,
+      "sources": {
+        "Обращения контакт-центра": 120,
+        "Экспертные сценарии": 72
+      },
+      "categories": {
+        "Подбор и рекомендации": 75,
+        "Сравнение товаров": 33,
+        "Состав и безопасность": 26,
+        "Применение и совместимость": 28,
+        "Характеристики, комплектация": 30
+      },
+      "catalogs": {
+        "body_skincare": 11,
+        "hair": 13,
+        "makeup": 51,
+        "face_skincare": 74,
+        "perfume": 19,
+        "other": 24
+      },
+      "matrix": {
+        "Подбор и рекомендации": {
+          "makeup": 21,
+          "face_skincare": 27,
+          "body_skincare": 3,
+          "hair": 7,
+          "perfume": 13,
+          "other": 4
+        },
+        "Сравнение товаров": {
+          "makeup": 13,
+          "face_skincare": 15,
+          "body_skincare": 2,
+          "hair": 1,
+          "perfume": 1,
+          "other": 1
+        },
+        "Состав и безопасность": {
+          "makeup": 4,
+          "face_skincare": 16,
+          "body_skincare": 2,
+          "hair": 0,
+          "perfume": 0,
+          "other": 4
+        },
+        "Применение и совместимость": {
+          "makeup": 8,
+          "face_skincare": 12,
+          "body_skincare": 2,
+          "hair": 3,
+          "perfume": 1,
+          "other": 2
+        },
+        "Характеристики, комплектация": {
+          "makeup": 5,
+          "face_skincare": 4,
+          "body_skincare": 2,
+          "hair": 2,
+          "perfume": 4,
+          "other": 13
+        }
+      },
+      "personalized": 93,
+      "needs_clarification": 5,
+      "multiturn_rows": 45,
+      "criteria": {
+        "U1": 192,
+        "U2": 192,
+        "U3": 192,
+        "U4": 192,
+        "U5": 192,
+        "U6": 192,
+        "U8": 192,
+        "P1": 68,
+        "P2": 76,
+        "P5": 63,
+        "P6": 35,
+        "U9": 44,
+        "X18": 34,
+        "U7": 47,
+        "G1": 9,
+        "G4": 5,
+        "X12": 5,
+        "P3": 7,
+        "C1": 115,
+        "X11": 33,
+        "C3": 26,
+        "C4": 31,
+        "C6": 26,
+        "U10": 14,
+        "C5": 28,
+        "R3": 7,
+        "X04": 5,
+        "P4": 5,
+        "X01": 4,
+        "X05": 3,
+        "X24": 1,
+        "X03": 11,
+        "R1": 7,
+        "R4": 7,
+        "X08": 7,
+        "R2": 1,
+        "X15": 3,
+        "X21": 4,
+        "X23": 1,
+        "X07": 2
+      },
+      "length_quantiles": {
+        "0": 4,
+        "0.5": 118.0,
+        "0.95": 342.4,
+        "1": 594
+      },
+      "length_histogram": {
+        "edges": [
+          0,
+          50,
+          100,
+          200,
+          400,
+          800,
+          1600
+        ],
+        "counts": [
+          59,
+          25,
+          57,
+          46,
+          5,
+          0
+        ]
+      }
+    },
+    "hard_negative": {
+      "rows": 21,
+      "dialogues": 14,
+      "sources": {
+        "Экспертные сценарии": 19,
+        "Синтетические проверки": 2
+      },
+      "categories": {
+        "Характеристики, комплектация": 1,
+        "Подбор и рекомендации": 4,
+        "Бонусы, скидки, промокоды": 3,
+        "Прочее (поддержка)": 5,
+        "Статус и доставка заказа": 2,
+        "Магазины и сервис": 3,
+        "Вне тематики": 2,
+        "Состав и безопасность": 1
+      },
+      "catalogs": {
+        "perfume": 3,
+        "face_skincare": 1,
+        "other": 17
+      },
+      "matrix": {
+        "Характеристики, комплектация": {
+          "makeup": 0,
+          "face_skincare": 0,
+          "body_skincare": 0,
+          "hair": 0,
+          "perfume": 1,
+          "other": 0
+        },
+        "Подбор и рекомендации": {
+          "makeup": 0,
+          "face_skincare": 1,
+          "body_skincare": 0,
+          "hair": 0,
+          "perfume": 2,
+          "other": 1
+        },
+        "Бонусы, скидки, промокоды": {
+          "makeup": 0,
+          "face_skincare": 0,
+          "body_skincare": 0,
+          "hair": 0,
+          "perfume": 0,
+          "other": 3
+        },
+        "Прочее (поддержка)": {
+          "makeup": 0,
+          "face_skincare": 0,
+          "body_skincare": 0,
+          "hair": 0,
+          "perfume": 0,
+          "other": 5
+        },
+        "Статус и доставка заказа": {
+          "makeup": 0,
+          "face_skincare": 0,
+          "body_skincare": 0,
+          "hair": 0,
+          "perfume": 0,
+          "other": 2
+        },
+        "Магазины и сервис": {
+          "makeup": 0,
+          "face_skincare": 0,
+          "body_skincare": 0,
+          "hair": 0,
+          "perfume": 0,
+          "other": 3
+        },
+        "Вне тематики": {
+          "makeup": 0,
+          "face_skincare": 0,
+          "body_skincare": 0,
+          "hair": 0,
+          "perfume": 0,
+          "other": 2
+        },
+        "Состав и безопасность": {
+          "makeup": 0,
+          "face_skincare": 0,
+          "body_skincare": 0,
+          "hair": 0,
+          "perfume": 0,
+          "other": 1
+        }
+      },
+      "personalized": 1,
+      "needs_clarification": 1,
+      "multiturn_rows": 11,
+      "criteria": {
+        "U1": 21,
+        "U3": 21,
+        "U4": 21,
+        "U5": 21,
+        "U6": 21,
+        "U8": 21,
+        "U9": 21,
+        "U10": 1,
+        "O1": 2,
+        "O7": 2,
+        "O2": 1,
+        "O3": 1,
+        "O4": 1,
+        "C3": 1,
+        "U7": 1
+      },
+      "length_quantiles": {
+        "0": 6,
+        "0.5": 21.0,
+        "0.95": 55.0,
+        "1": 67
+      },
+      "length_histogram": {
+        "edges": [
+          0,
+          50,
+          100,
+          200,
+          400,
+          800,
+          1600
+        ],
+        "counts": [
+          18,
+          3,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "operator_answers": {
+    "provided": 120,
+    "usable_texts": 114,
+    "placeholders": 6,
+    "absent": 93
+  },
+  "privacy_signals": {
+    "query": {
+      "phone_like": 0,
+      "email_like": 0,
+      "url": 34
+    },
+    "operator_response": {
+      "phone_like": 4,
+      "email_like": 0,
+      "url": 51
+    }
+  },
+  "cross_role_text_overlap": 0,
+  "scope_diagnostic": {
+    "comparison_rows": 33,
+    "remaining_rows": 147,
+    "remaining_dialogues": 127,
+    "excluded_rows": 45
+  }
+}
